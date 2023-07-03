@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/BigDwarf/aws-nuke/v2/resources"
 	"github.com/fatih/color"
-	"github.com/rebuy-de/aws-nuke/v2/resources"
 )
 
 var (

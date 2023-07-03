@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/BigDwarf/aws-nuke/v2/resources"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/endpoints"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/cloudformation"
 	"github.com/fatih/color"
-	"github.com/rebuy-de/aws-nuke/v2/resources"
 	"github.com/rebuy-de/rebuy-go-sdk/v4/pkg/cmdutil"
 	"github.com/sirupsen/logrus"
 )

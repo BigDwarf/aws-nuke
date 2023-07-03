@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/BigDwarf/aws-nuke/v2/pkg/awsutil"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/rebuy-de/aws-nuke/v2/pkg/awsutil"
 )
 
 // SessionFactory support for custom endpoints

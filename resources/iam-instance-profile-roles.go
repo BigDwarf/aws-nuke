@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/BigDwarf/aws-nuke/v2/pkg/types"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/iam"
-	"github.com/rebuy-de/aws-nuke/v2/pkg/types"
 	"github.com/sirupsen/logrus"
 )
 

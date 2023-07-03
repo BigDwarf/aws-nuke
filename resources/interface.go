@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/BigDwarf/aws-nuke/v2/pkg/config"
+	"github.com/BigDwarf/aws-nuke/v2/pkg/types"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/rebuy-de/aws-nuke/v2/pkg/config"
-	"github.com/rebuy-de/aws-nuke/v2/pkg/types"
 )
 
 type ResourceListers map[string]ResourceLister

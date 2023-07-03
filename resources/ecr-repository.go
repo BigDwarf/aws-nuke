@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/BigDwarf/aws-nuke/v2/pkg/types"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ecr"
-	"github.com/rebuy-de/aws-nuke/v2/pkg/types"
 )
 
 type ECRRepository struct {

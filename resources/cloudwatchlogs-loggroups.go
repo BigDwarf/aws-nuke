@@ -4,10 +4,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/BigDwarf/aws-nuke/v2/pkg/types"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
-	"github.com/rebuy-de/aws-nuke/v2/pkg/types"
 )
 
 type CloudWatchLogsLogGroup struct {

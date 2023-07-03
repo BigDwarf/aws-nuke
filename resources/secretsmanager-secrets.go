@@ -1,10 +1,10 @@
 package resources
 
 import (
+	"github.com/BigDwarf/aws-nuke/v2/pkg/types"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/secretsmanager"
-	"github.com/rebuy-de/aws-nuke/v2/pkg/types"
 )
 
 type SecretsManagerSecret struct {

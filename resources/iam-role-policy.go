@@ -7,10 +7,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
+	"github.com/BigDwarf/aws-nuke/v2/pkg/types"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/iam"
-	"github.com/rebuy-de/aws-nuke/v2/pkg/types"
 )
 
 type IAMRolePolicy struct {
